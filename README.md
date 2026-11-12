@@ -25,13 +25,14 @@ The implementation was carried out using **Google Colab** and Python.
 The dataset contains anonymized numerical features (`V1` to `V28`), transaction time, and transaction amount.
 
 ## Technologies Used
-- Python
+- pandas==2.2.3
+- numpy==2.1.3
+- matplotlib==3.9.2
+- seaborn==0.13.2
+- scikit-learn==1.5.2
+- scipy==1.14.1
+- joblib==1.4.2
 - Google Colab
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
 
 ## Project Workflow
 1. Dataset collection and loading
