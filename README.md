@@ -58,6 +58,24 @@ The dataset contains anonymized numerical features (`V1` to `V28`), transaction 
 - Average Precision
 - Confusion Matrix
 
+## Exploratory Data Analysis (EDA)
+
+Exploratory Data Analysis is performed to understand transaction patterns and identify important characteristics of fraudulent and legitimate transactions.
+
+### Visualizations
+
+- **Class Distribution:** Analyzes the number of legitimate and fraudulent transactions.
+- **Transaction Amount Distribution:** Uses histograms to understand transaction amount patterns.
+- **Transaction Time Distribution:** Examines transaction activity over time.
+- **Amount by Transaction Class:** Uses box plots to compare legitimate and fraudulent transaction amounts.
+- **Correlation Heatmap:** Identifies relationships between numerical features and the target variable.
+
+### Statistical Analysis
+
+The Mann-Whitney U test is used to determine whether there is a statistically significant difference between legitimate and fraudulent transaction amounts.
+
+These analyses help understand the highly imbalanced dataset and support the development of effective fraud detection models.
+
 ## Validation Results
 The following results were obtained during baseline model comparison on the validation dataset at a classification threshold of 0.5.
 
