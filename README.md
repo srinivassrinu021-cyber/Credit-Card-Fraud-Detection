@@ -66,3 +66,19 @@ The following results were obtained during baseline model comparison on the vali
 | Dummy Classifier | 0.0000 | 0.0000 | 0.0000 | 0.5000 |
 | Logistic Regression | 0.0508 | 0.8873 | 0.0962 | 0.9717 |
 | Decision Tree |
+
+Future Enhancements
+
+Experiment with advanced anomaly detection algorithms.
+
+Improve fraud detection performance on imbalanced datasets.
+
+Introduce real-time transaction monitoring.
+
+Add explainable AI techniques.
+
+Improve dashboard visualizations.
+
+Deploy the application on a cloud platform.
+
+
